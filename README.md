@@ -11,6 +11,33 @@ This project is suitable for:
 
 ---
 
+# Installation
+
+## Requirements
+
+- C++17
+- Boost (json, asio, beast)
+- Node.js + npm
+- Make
+
+Mac (Homebrew):
+```bash
+brew install boost node
+```
+
+---
+
+# Getting Started
+
+```
+cd simulator
+make
+cd ..
+./execute.sh
+```
+
+---
+
 # Project Structure
 ```
 MiniPowerGrid/
@@ -38,33 +65,6 @@ MiniPowerGrid/
 - WebSocket live data
 - JSON logging
 - Configurable network via JSON
-
----
-
-# Installation
-
-## Requirements
-
-- C++17
-- Boost (json, asio, beast)
-- Node.js + npm
-- Make
-
-Mac (Homebrew):
-```bash
-brew install boost node
-```
-
----
-
-# Getting Started
-
-```
-cd simulator
-make
-cd ..
-./execute.sh
-```
 
 ---
 
