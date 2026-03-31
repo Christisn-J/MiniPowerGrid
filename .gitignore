@@ -1,0 +1,81 @@
+# =========================
+# Node / React
+# =========================
+node_modules/
+**/node_modules/
+build/
+coverage/
+.pnp
+.pnp.js
+.env*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# C++ Build
+# =========================
+**/bin/
+**/build/
+**/obj/
+**/dep/
+**/output/
+*.o
+*.out
+*.d
+
+# =========================
+# IDE
+# =========================
+.idea/
+**/.idea/
+cmake-build-*/
+.vscode/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+**/.DS_Store
+
+# =========================
+# Python
+# =========================
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Simulation data
+# =========================
+*.h5
+*.png
+*.csv
+*.mp4
+
+# Aber Beispiele behalten
+!examples/*.h5
+!documents/*.csv
+
+# =========================
+# Logs / Debug
+# =========================
+**/log/
+core.*
+*.lldb
+
+# =========================
+# Scripts
+# =========================
+scripts/
+**/*.pbs
+
+# execute.sh NICHT ignorieren!
+!execute.sh
+
+# =========================
+# Archive
+# =========================
+archiv*/
+**/archiv*/
