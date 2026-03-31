@@ -12,6 +12,7 @@ This project is suitable for:
 ---
 
 # Project Structure
+```
 MiniPowerGrid/
 ├── dashboard/ # React Dashboard (visualization)
 ├── simulator/ # C++ Simulation
@@ -22,6 +23,7 @@ MiniPowerGrid/
 │   └── testcases/
 ├── execute.sh # Starts Simulator + Dashboard
 └── README.md
+```
 
 ---
 
