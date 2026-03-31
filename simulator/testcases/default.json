@@ -1,0 +1,112 @@
+{
+  "nodes": [
+    {
+      "name": "Slack Bus (Grid)",
+      "type": "Generator",
+      "voltage": 230.0,
+      "load": 0.0,
+      "soc": 0.5,
+      "capacity": 0.0
+    },
+    {
+      "name": "Gas Generator",
+      "type": "Generator",
+      "voltage": 230.0,
+      "load": -20.0,
+      "soc": 0.5,
+      "capacity": 0.0
+    },
+    {
+      "name": "Solar Farm",
+      "type": "Generator",
+      "voltage": 230.0,
+      "load": -50.0,
+      "soc": 0.5,
+      "capacity": 0.0
+    },
+    {
+      "name": "Wind Farm",
+      "type": "Generator",
+      "voltage": 230.0,
+      "load": -30.0,
+      "soc": 0.5,
+      "capacity": 0.0
+    },
+    {
+      "name": "Battery",
+      "type": "Battery",
+      "voltage": 230.0,
+      "load": -10.0,
+      "soc": 0.5,
+      "capacity": 50.0
+    },
+    {
+      "name": "City Load",
+      "type": "Consumer",
+      "voltage": 230.0,
+      "load": 60.0,
+      "soc": 0.0,
+      "capacity": 0.0
+    },
+    {
+      "name": "Industry Load",
+      "type": "Consumer",
+      "voltage": 230.0,
+      "load": 80.0,
+      "soc": 0.0,
+      "capacity": 0.0
+    },
+    {
+      "name": "Residential",
+      "type": "Consumer",
+      "voltage": 230.0,
+      "load": 40.0,
+      "soc": 0.0,
+      "capacity": 0.0
+    }
+  ],
+  "lines": [
+    {
+      "from": 0,
+      "to": 1,
+      "reactance": 0.03,
+      "capacity": 150.0
+    },
+    {
+      "from": 0,
+      "to": 2,
+      "reactance": 0.05,
+      "capacity": 80.0
+    },
+    {
+      "from": 0,
+      "to": 3,
+      "reactance": 0.06,
+      "capacity": 70.0
+    },
+    {
+      "from": 0,
+      "to": 4,
+      "reactance": 0.04,
+      "capacity": 50.0
+    },
+    {
+      "from": 0,
+      "to": 5,
+      "reactance": 0.02,
+      "capacity": 100.0
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "reactance": 0.03,
+      "capacity": 90.0
+    },
+    {
+      "from": 5,
+      "to": 7,
+      "reactance": 0.04,
+      "capacity": 60.0
+    }
+  ]
+}
