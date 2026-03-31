@@ -3,12 +3,6 @@
 MiniPowerGrid is a small simulation of an electrical distribution network with generators, consumers, batteries, and power lines.  
 The simulation runs in C++ and sends live network data via WebSocket to a React dashboard for visualization.
 
-This project is suitable for:
-- Smart Grid simulation
-- Microgrid / distribution network experiments
-- Visualization of power flows
-- Blackout and overload simulation
-
 ---
 
 # Installation
