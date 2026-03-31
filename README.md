@@ -13,16 +13,26 @@ This project is suitable for:
 
 # Installation
 
-## Requirements
+## Prerequisites
 
 - C++17
 - Boost (json, asio, beast)
 - Node.js + npm
 - Make
 
-Mac (Homebrew):
-```bash
+### macOS (Homebrew)
+```
+bash
 brew install boost node
+```
+
+### Initialize React Dashboard
+
+After installing Node.js and npm, set up the dashboard environment:
+```
+cd dashboard
+npm install        # install React dependencies
+export NODE_ENV=development   # set environment variable
 ```
 
 ---
