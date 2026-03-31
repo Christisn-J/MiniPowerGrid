@@ -1,6 +1,7 @@
 #include <boost/json.hpp>
 #include <boost/asio.hpp>
 #include <boost/beast.hpp>
+#include <filesystem>
 #include <iostream>
 #include <vector>
 #include <thread>
@@ -229,7 +230,8 @@ void websocket_server(Network& net, unsigned short port) {
     tcp::acceptor acceptor{ioc, {tcp::v4(), port}};
     std::cout << "WebSocket server listening on port " << port << "...\n";
 
-    std::ofstream logFile("simulation_log.json");
+    std::filesystem::create_directories("log");
+    std::ofstream logFile("log/simulation_log.json");
     logFile << "[\n";
 
     double t_0 = 8.0; // Default start hour
